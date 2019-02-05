@@ -26,5 +26,14 @@
 			"window01.mainloop()"
 		],
 		"description": "Inserts the basic structure of a Tkinter script",
+	},
+
+	"For":{
+		"prefix": "for",
+		"body": [
+			"for $1 in range($2):",
+				"$0"	
+		],
+		"description": "Inserts a basic python for loop"
 	}
 }
