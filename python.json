@@ -35,5 +35,13 @@
 				"$0"	
 		],
 		"description": "Inserts a basic python for loop"
+	},
+
+	"Intput":{
+		"prefix": "intput",
+		"body": [
+			"${variable} = int(input($0))"
+		],
+		"description": "Inserts a input command configured as integer"
 	}
 }
