@@ -72,7 +72,7 @@
 	"Grid":{
 		"prefix": "grid",
 		"body": [
-			".grid(row = $1, column = $2)"
+			"${variable}.grid(row = $2, column = $3)"
 		],
 		"description": "Inserts a Tkinter grid command"
 	}
