@@ -21,7 +21,9 @@
 				"\"body\": [",
 					"\"${body}\"",
 				"],",
-				"\"description\": \"${description}"
-		]
-	}
+				"\"description\": \"${description}",
+			"},"
+		],
+		"description": "Inserts a JSON framework for a code snippet"
+	},
 }
