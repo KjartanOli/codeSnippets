@@ -56,4 +56,14 @@
 	],
 	"description": "Inserts a http server"
 	},
+
+	"if":{
+	"prefix": "if",
+	"body": [
+		"if(${condition}){",
+			"\t$0",
+		"}"
+	],
+	"description": "Inserts a javascript if statement"
+	},
 }
