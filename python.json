@@ -43,5 +43,21 @@
 			"${variable} = int(input($0))"
 		],
 		"description": "Inserts a input command configured as integer"
+	},
+
+	"Intvar":{
+		"prefix": "intVar",
+		"body": [
+			"${variable} = IntVar()"
+		],
+		"description": "Inserts a Tkinter IntVar"
+	},
+
+	"StringVar":{
+		"prefix": "stringVar",
+		"body": [
+			"${variable} = StringVar()"
+		],
+		"description": "Inserts a Tkinter StringVar"
 	}
 }
