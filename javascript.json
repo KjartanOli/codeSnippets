@@ -16,7 +16,7 @@
 	"For loop":{
 		"prefix": "for",
 		"body": [
-			"for (let $1 = 0; %1 $0;$1++){",
+			"for (let ${1:variable} = 0; %{1:variable} < ${2:condition} $0;${1:variable}++){",
 				"",
 			"}",
 		],
