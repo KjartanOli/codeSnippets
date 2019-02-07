@@ -29,13 +29,13 @@
 			"const readline = require(\"readline\")",
 			"",
 			"const rl = readline.createInterface({",
-				"input: process.stdin",
+				"input: process.stdin,",
 				"output: process.stdout",
 			"});",
 			"",
 			"rl.on(\"line\", (line) => {",
-				"",
-			"};"
+				"$0",
+			"});"
 		],
 		"description": "Inserts the basic structure of a javascript readline script"
 	},
@@ -45,5 +45,5 @@
 		"body": [
 			"const ${module} = require(\"${module}\");"
 		]
-	}
+	},
 }
