@@ -59,5 +59,21 @@
 			"${variable} = StringVar()"
 		],
 		"description": "Inserts a Tkinter StringVar"
+	},
+
+	"Label":{
+		"prefix": "label",
+		"body": [
+			"${variable} = Label(${frame}, text = \"$0\")"
+		],
+		"description": "Inserts a Tkinter label"
+	},
+
+	"Grid":{
+		"prefix": "grid",
+		"body": [
+			".grid(row = $1, column = $2)"
+		],
+		"description": "Inserts a Tkinter grid command"
 	}
 }
