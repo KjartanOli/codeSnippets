@@ -17,11 +17,11 @@
 		"prefix": "snippet",
 		"body": [
 			"\"${name}\":{",
-				"prefix\": \"${prefix}\",",
+				"\"prefix\": \"${prefix}\",",
 				"\"body\": [",
-					"\"${body}\"",
+				"\t\"${body}\"",
 				"],",
-				"\"description\": \"${description}",
+				"\"description\": \"${description}\"",
 			"},"
 		],
 		"description": "Inserts a JSON framework for a code snippet"
