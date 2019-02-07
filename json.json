@@ -17,11 +17,11 @@
 		"prefix": "snippet",
 		"body": [
 			"\"${name}\":{",
-				"prefix\": \"${prefix}\"",
+				"prefix\": \"${prefix}\",",
 				"\"body\": [",
-					"${body}",
-				"]",
-				"\"description\": ${description}"
+					"\"${body}\"",
+				"],",
+				"\"description\": \"${description}"
 		]
 	}
 }
