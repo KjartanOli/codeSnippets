@@ -51,7 +51,7 @@
 	"prefix": "server",
 	"body": [
 		"const server = http.createServer((req, res) => {",
-			"$0",
+			"\t$0",
 		"})"
 	],
 	"description": "Inserts a http server"
