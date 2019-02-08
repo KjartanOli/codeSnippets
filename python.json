@@ -92,4 +92,12 @@
 	],
 	"description": "Inserts the Tkinter padding keywords"
 	},
+
+	"Entry":{
+	"prefix": "entry",
+	"body": [
+		" = Entry(${frame}, textvariable = ${variable})"
+	],
+	"description": "Inserts a Tkinter Entry"
+	},
 }
