@@ -84,4 +84,12 @@
 	],
 	"description": "Inserts a Tkinter sticky keywords"
 	},
+
+	"padding":{
+	"prefix": "padding",
+	"body": [
+		"padx = $1, pady = $2"
+	],
+	"description": "Inserts the Tkinter padding keywords"
+	},
 }
