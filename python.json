@@ -75,5 +75,13 @@
 			".grid(row = $2, column = $3)"
 		],
 		"description": "Inserts a Tkinter grid command"
-	}
+	},
+
+	"Sticky":{
+	"prefix": "sticky",
+	"body": [
+		"sticky = ${1|N, W, S, E|}"
+	],
+	"description": "Inserts a Tkinter sticky keywords"
+	},
 }
