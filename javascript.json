@@ -34,7 +34,7 @@
 			"});",
 			"",
 			"rl.on(\"line\", (line) => {",
-				"$0",
+				"\t$0",
 			"});"
 		],
 		"description": "Inserts the basic structure of a javascript readline script"
