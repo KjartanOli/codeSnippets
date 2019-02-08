@@ -80,7 +80,7 @@
 	"Sticky":{
 	"prefix": "sticky",
 	"body": [
-		"sticky = ${1|N, W, S, E|}"
+		"sticky = ${1|N,W,S,E|}"
 	],
 	"description": "Inserts a Tkinter sticky keywords"
 	},
