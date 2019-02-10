@@ -32,7 +32,7 @@
 		"prefix": "for",
 		"body": [
 			"for $1 in range($2):",
-				"$0"	
+				"\t$0"	
 		],
 		"description": "Inserts a basic python for loop"
 	},
@@ -104,7 +104,7 @@
 	"Frame":{
 	"prefix": "frame",
 	"body": [
-		" = Frame(${1:window)}"
+		" = Frame(${1:window})"
 	],
 	"description": "Inserts a Tkinter Frame"
 	},
