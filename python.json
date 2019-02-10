@@ -48,7 +48,7 @@
 	"Intvar":{
 		"prefix": "intVar",
 		"body": [
-			"${variable} = IntVar()"
+			" = IntVar()"
 		],
 		"description": "Inserts a Tkinter IntVar"
 	},
@@ -56,7 +56,7 @@
 	"StringVar":{
 		"prefix": "stringVar",
 		"body": [
-			"${variable} = StringVar()"
+			" = StringVar()"
 		],
 		"description": "Inserts a Tkinter StringVar"
 	},
@@ -64,7 +64,7 @@
 	"Label":{
 		"prefix": "label",
 		"body": [
-			"${variable} = Label(${frame}, text = \"$0\")"
+			" = Label(${frame}, text = \"$0\")"
 		],
 		"description": "Inserts a Tkinter label"
 	},
