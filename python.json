@@ -19,7 +19,7 @@
 			"from tkinter import *",
 			"",
 			"window01 = Tk()",
-			"window01.title(\"\")",
+			"window01.title(\"${1:title}\")",
 			"",
 			"$0",
 			"",
