@@ -100,4 +100,20 @@
 	],
 	"description": "Inserts a Tkinter Entry"
 	},
+
+	"Frame":{
+	"prefix": "frame",
+	"body": [
+		" = Frame(${1:window)}"
+	],
+	"description": "Inserts a Tkinter Frame"
+	},
+
+	"Button":{
+	"prefix": "button",
+	"body": [
+		" = Button(${1:frame})"
+	],
+	"description": "Inserts a Tkinter Button"
+	},
 }
