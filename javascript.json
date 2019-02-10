@@ -16,8 +16,8 @@
 	"For loop":{
 		"prefix": "for",
 		"body": [
-			"for (let ${1:variable} = 0; %{1:variable} < ${2:condition} $0;${1:variable}++){",
-				"",
+			"for (let ${1:variable} = 0; ${1:variable} < ${2:condition} ;${1:variable}++){",
+				"\t$0",
 			"}",
 		],
 		"description": "Inserts a basic javascript for loop"
@@ -34,7 +34,7 @@
 			"});",
 			"",
 			"rl.on(\"line\", (line) => {",
-				"$0",
+				"\t$0",
 			"});"
 		],
 		"description": "Inserts the basic structure of a javascript readline script"
