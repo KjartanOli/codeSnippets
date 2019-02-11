@@ -19,7 +19,7 @@
 			"from tkinter import *",
 			"",
 			"window01 = Tk()",
-			"window01.title(\"${title}\")",
+			"window01.title(\"${1:title}\")",
 			"",
 			"$0",
 			"",
@@ -32,7 +32,7 @@
 		"prefix": "for",
 		"body": [
 			"for $1 in range($2):",
-				"$0"	
+				"\t$0"	
 		],
 		"description": "Inserts a basic python for loop"
 	},
@@ -48,7 +48,7 @@
 	"Intvar":{
 		"prefix": "intVar",
 		"body": [
-			"${variable} = IntVar()"
+			" = IntVar()"
 		],
 		"description": "Inserts a Tkinter IntVar"
 	},
@@ -56,7 +56,7 @@
 	"StringVar":{
 		"prefix": "stringVar",
 		"body": [
-			"${variable} = StringVar()"
+			" = StringVar()"
 		],
 		"description": "Inserts a Tkinter StringVar"
 	},
@@ -64,7 +64,7 @@
 	"Label":{
 		"prefix": "label",
 		"body": [
-			"${variable} = Label(${frame}, text = \"$0\")"
+			" = Label(${frame}, text = \"$0\")"
 		],
 		"description": "Inserts a Tkinter label"
 	},
@@ -99,5 +99,21 @@
 		" = Entry(${frame}, textvariable = ${variable})"
 	],
 	"description": "Inserts a Tkinter Entry"
+	},
+
+	"Frame":{
+	"prefix": "frame",
+	"body": [
+		" = Frame(${1:window})"
+	],
+	"description": "Inserts a Tkinter Frame"
+	},
+
+	"Button":{
+	"prefix": "button",
+	"body": [
+		" = Button(${1:frame})"
+	],
+	"description": "Inserts a Tkinter Button"
 	},
 }
