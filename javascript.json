@@ -47,7 +47,7 @@
 		]
 	},
 
-	"server":{
+	"Server":{
 	"prefix": "server",
 	"body": [
 		"const server = http.createServer((req, res) => {",
