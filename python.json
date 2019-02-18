@@ -40,7 +40,7 @@
 	"Intput":{
 		"prefix": "intput",
 		"body": [
-			"${variable} = int(input($0))"
+			"int(input($0))"
 		],
 		"description": "Inserts a input command configured as integer"
 	},
@@ -48,7 +48,7 @@
 	"Intvar":{
 		"prefix": "intVar",
 		"body": [
-			" = IntVar()"
+			"IntVar()"
 		],
 		"description": "Inserts a Tkinter IntVar"
 	},
@@ -56,7 +56,7 @@
 	"StringVar":{
 		"prefix": "stringVar",
 		"body": [
-			" = StringVar()"
+			"StringVar()"
 		],
 		"description": "Inserts a Tkinter StringVar"
 	},
@@ -64,7 +64,7 @@
 	"Label":{
 		"prefix": "label",
 		"body": [
-			" = Label(${frame}, text = \"$0\")"
+			"Label(${frame}, text = \"$0\")"
 		],
 		"description": "Inserts a Tkinter label"
 	},
@@ -96,7 +96,7 @@
 	"Entry":{
 	"prefix": "entry",
 	"body": [
-		" = Entry(${frame}, textvariable = ${variable})"
+		"Entry(${frame}, textvariable = ${variable})"
 	],
 	"description": "Inserts a Tkinter Entry"
 	},
@@ -104,7 +104,7 @@
 	"Frame":{
 	"prefix": "frame",
 	"body": [
-		" = Frame(${1:window})"
+		"Frame(${1:window})"
 	],
 	"description": "Inserts a Tkinter Frame"
 	},
@@ -112,7 +112,7 @@
 	"Button":{
 	"prefix": "button",
 	"body": [
-		" = Button(${1:frame})"
+		"Button(${1:frame})"
 	],
 	"description": "Inserts a Tkinter Button"
 	},
