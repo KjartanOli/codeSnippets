@@ -43,7 +43,7 @@
 	"Module":{
 		"prefix": "module",
 		"body": [
-			"const ${module} = require(\"${module}\");"
+			"const ${module} = require('${module}');"
 		]
 	},
 
