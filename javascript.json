@@ -26,14 +26,14 @@
 	"Readline":{
 		"prefix": "readline",
 		"body": [
-			"const readline = require(\"readline\")",
+			"const readline = require('readline')",
 			"",
 			"const rl = readline.createInterface({",
 				"input: process.stdin,",
 				"output: process.stdout",
 			"});",
 			"",
-			"rl.on(\"line\", (line) => {",
+			"rl.on('line', (line) => {",
 				"\t$0",
 			"});"
 		],
@@ -71,8 +71,8 @@
 		"prefix": "send404",
 		"body": [
 			"function send404(res){",
-			"res.writeHead(404, {contentType: \"text/plain\"});",
-			"res.write(\"Error 404: Resource not found\");",
+			"res.writeHead(404, {contentType: 'text/plain'});",
+			"res.write('Error 404: Resource not found');",
 			"res.end();",
 		"}"
 	],
