@@ -26,14 +26,14 @@
 	"Readline":{
 		"prefix": "readline",
 		"body": [
-			"const readline = require(\"readline\")",
+			"const readline = require('readline')",
 			"",
 			"const rl = readline.createInterface({",
 				"input: process.stdin,",
 				"output: process.stdout",
 			"});",
 			"",
-			"rl.on(\"line\", (line) => {",
+			"rl.on('line', (line) => {",
 				"\t$0",
 			"});"
 		],
@@ -43,7 +43,7 @@
 	"Module":{
 		"prefix": "module",
 		"body": [
-			"const ${module} = require(\"${module}\");"
+			"const ${module} = require('${module}');"
 		]
 	},
 
@@ -57,7 +57,7 @@
 	"description": "Inserts a http server"
 	},
 
-	"if":{
+	"If":{
 	"prefix": "if",
 	"body": [
 		"if(${condition}){",
@@ -66,4 +66,16 @@
 	],
 	"description": "Inserts a javascript if statement"
 	},
+
+	"Send404":{
+		"prefix": "send404",
+		"body": [
+			"function send404(res){",
+			"res.writeHead(404, {contentType: 'text/plain'});",
+			"res.write('Error 404: Resource not found');",
+			"res.end();",
+		"}"
+	],
+	"description": "Inserts a send404 function"
+	}
 }

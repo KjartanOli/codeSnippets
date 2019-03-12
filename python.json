@@ -20,7 +20,7 @@
 			"from tkinter import *",
 			"",
 			"window01 = Tk()",
-			"window01.title(\"${1:title}\")",
+			"window01.title('${1:title}')",
 			"",
 			"$0",
 			"",
@@ -65,7 +65,11 @@
 	"Label":{
 		"prefix": "label",
 		"body": [
+<<<<<<< HEAD
 			"Label(${frame}, text = \"$0\")"
+=======
+			"Label(${frame}, text = '$0')"
+>>>>>>> 3ccbd232a01b9b6e9615d8dd6ae920d64f563c4d
 		],
 		"description": "Inserts a Tkinter label"
 	},
