@@ -65,11 +65,7 @@
 	"Label":{
 		"prefix": "label",
 		"body": [
-<<<<<<< HEAD
-			"Label(${frame}, text = \"$0\")"
-=======
 			"Label(${frame}, text = '$0')"
->>>>>>> 3ccbd232a01b9b6e9615d8dd6ae920d64f563c4d
 		],
 		"description": "Inserts a Tkinter label"
 	},
@@ -121,4 +117,25 @@
 	],
 	"description": "Inserts a Tkinter Button"
 	},
+
+	"Pygame":{
+	"prefix": "pygame",
+	"body": [
+		"import pygame, sys",
+		"from pygame.locals import *",
+		"",
+		"DISPLAYSURF = pygame.display.set_mode((400, 400), 0, 32)",
+		"pygame.display.set_caption('$0')",
+		"",
+		"pygame.init()",
+		"",
+		"while True:",
+    	"\tfor event in pygame.event.get():",
+        	"\t\tif event.type == QUIT:",
+            	"\t\t\tpygame.quit()",
+            	"\t\t\tsys.exit()",
+    	"\tpygame.display.update()"
+	],
+	"description": "Inserts the base of a pygame script"
+	},	
 }
