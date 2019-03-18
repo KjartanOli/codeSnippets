@@ -73,7 +73,7 @@
 	"Grid":{
 		"prefix": "grid",
 		"body": [
-			".grid(row = $2, column = $3)"
+			".grid(row=$1, column=$2)"
 		],
 		"description": "Inserts a Tkinter grid command"
 	},
@@ -89,7 +89,7 @@
 	"padding":{
 	"prefix": "padding",
 	"body": [
-		"padx = $1, pady = $2"
+		"padx=$1, pady=$2"
 	],
 	"description": "Inserts the Tkinter padding keywords"
 	},
