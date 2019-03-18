@@ -129,12 +129,16 @@
 		"",
 		"pygame.init()",
 		"",
+		"FPS = 60",
+		"fpsClock = pygame.time.Clock()",
+		"",
 		"while True:",
     	"\tfor event in pygame.event.get():",
         	"\t\tif event.type == QUIT:",
             	"\t\t\tpygame.quit()",
             	"\t\t\tsys.exit()",
-    	"\tpygame.display.update()"
+		"\tpygame.display.update()",
+		"\tfpsClock.tick(FPS)"
 	],
 	"description": "Inserts the base of a pygame script"
 	},	
