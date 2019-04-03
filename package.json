@@ -1,0 +1,24 @@
+{
+  "name": "vscode_snippets",
+  "version": "1.0.0",
+  "description": "A collection of usefull code snippets for Visual Studio Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git add -A && git commit -m \"Auto Commit\" && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KjartanOli/codeSnippets.git"
+  },
+  "keywords": [
+    "VS Code",
+    "Code Snippets"
+  ],
+  "author": "Kjartan Óli Ágústsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KjartanOli/codeSnippets/issues"
+  },
+  "homepage": "https://github.com/KjartanOli/codeSnippets#readme"
+}
