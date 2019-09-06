@@ -7,7 +7,7 @@
 	// "Print to console": {
 	// 	"prefix": "log",
 	// 	"body": [
-	// 		"console.log('$1');",
+	// 		"console.log(\"$1\");",
 	// 		"$2"
 	// 	],
 	// 	"description": "Log output to console"
@@ -26,14 +26,14 @@
 	"Readline":{
 		"prefix": "readline",
 		"body": [
-			"const readline = require('readline')",
+			"const readline = require(\"readline\")",
 			"",
 			"const rl = readline.createInterface({",
 				"\tinput: process.stdin,",
 				"\toutput: process.stdout",
 			"});",
 			"",
-			"rl.on('line', (line) => {",
+			"rl.on(\"line\", (line) => {",
 				"\t$0",
 			"});"
 		],
@@ -71,8 +71,8 @@
 		"prefix": "send404",
 		"body": [
 			"function send404(res){",
-			"res.writeHead(404, {contentType: 'text/plain'});",
-			"res.write('Error 404: Resource not found');",
+			"res.writeHead(404, {contentType: \"text/plain\"});",
+			"res.write(\"Error 404: Resource not found\");",
 			"res.end();",
 		"}"
 	],

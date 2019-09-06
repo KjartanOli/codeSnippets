@@ -1,0 +1,11 @@
+{"Header Guard": {
+    "prefix": "headerGuard",
+    "body": [
+      "#ifndef ${file name}",
+      "#define ${file name}",
+      "\t",
+      "#endif"
+    ],
+    "description": "Insert a C++ header guard."
+  }
+}

@@ -22,7 +22,7 @@
 					"\t\t<meta charset='UTF-8'>",
 					"\t\t<meta name = 'viewport' content = 'width=device-width, initial-scale = 1.0'>",
 					"\t\t<meta http-equiv = 'X-UA-Compatible' content = 'ie = edge'>",
-					"\t\t<title>${title}</title>",
+					"\t\t<title><%= title %></title>",
 				"\t</head>",
 				"",
 				"\t<body>",
