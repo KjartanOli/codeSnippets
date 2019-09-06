@@ -1,8 +1,8 @@
 {"Header Guard": {
     "prefix": "headerGuard",
     "body": [
-      "#ifndef ${file name}",
-      "#define ${file name}",
+      "#ifndef ${1:file name}",
+      "#define ${1:file name}",
       "\t",
       "#endif"
     ],
