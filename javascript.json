@@ -83,7 +83,7 @@
 	"prefix": "route",
 	"body": [
 		"const express = require(\"express\");",
-		"const router = express.router();",
+		"const router = express.Router();",
 		"",
 		"router.get(\"${url}\", (req, res, next) => {",
 			"\t res.render(\"${path}\", {\n",
